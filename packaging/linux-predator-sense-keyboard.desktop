@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Linux Predator Sense Keyboard
+Comment=RGB control for Acer Predator keyboard and lid logo on Linux
+Exec=/usr/local/bin/linux-predator-sense-keyboard
+Icon=linux-predator-sense-keyboard
+Terminal=false
+Categories=Utility;Settings;
+StartupNotify=true

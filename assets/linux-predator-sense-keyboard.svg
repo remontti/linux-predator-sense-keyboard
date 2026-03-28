@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1722"/>
+      <stop offset="1" stop-color="#08111A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="92" y1="120" x2="420" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12273A"/>
+      <stop offset="1" stop-color="#0B1824"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="120" y1="180" x2="392" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6DE3FF"/>
+      <stop offset="1" stop-color="#1795E2"/>
+    </linearGradient>
+    <linearGradient id="red" x1="308" y1="68" x2="430" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF684E"/>
+      <stop offset="1" stop-color="#F22D1F"/>
+    </linearGradient>
+    <filter id="glow" x="70" y="90" width="372" height="284" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect x="28" y="28" width="456" height="456" rx="104" fill="url(#bg)"/>
+  <rect x="52" y="52" width="408" height="408" rx="84" fill="url(#panel)" stroke="#1E5677" stroke-width="4"/>
+
+  <path d="M334 94L410 94L360 154L420 154L350 228" stroke="url(#red)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#glow)">
+    <rect x="96" y="172" width="320" height="172" rx="34" fill="#0B141D" stroke="#2A6C95" stroke-width="6"/>
+    <rect x="118" y="196" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="168" y="196" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="218" y="196" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="268" y="196" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="318" y="196" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="368" y="196" width="26" height="26" rx="8" fill="url(#cyan)"/>
+
+    <rect x="118" y="232" width="60" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="188" y="232" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="238" y="232" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="288" y="232" width="40" height="26" rx="8" fill="url(#cyan)"/>
+    <rect x="338" y="232" width="56" height="26" rx="8" fill="url(#cyan)"/>
+
+    <rect x="118" y="268" width="72" height="28" rx="9" fill="url(#cyan)"/>
+    <rect x="200" y="268" width="40" height="28" rx="9" fill="url(#cyan)"/>
+    <rect x="250" y="268" width="40" height="28" rx="9" fill="url(#cyan)"/>
+    <rect x="300" y="268" width="40" height="28" rx="9" fill="url(#cyan)"/>
+    <rect x="350" y="268" width="44" height="28" rx="9" fill="url(#cyan)"/>
+
+    <rect x="118" y="316" width="64" height="10" rx="5" fill="#2C5BFF"/>
+    <rect x="192" y="316" width="64" height="10" rx="5" fill="#1AA5FF"/>
+    <rect x="266" y="316" width="64" height="10" rx="5" fill="#12D1FF"/>
+    <rect x="340" y="316" width="54" height="10" rx="5" fill="#90F5FF"/>
+  </g>
+
+  <circle cx="398" cy="394" r="26" fill="#0C1924" stroke="#245D80" stroke-width="4"/>
+  <path d="M392 382L406 394L392 406" stroke="#FF4B3A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M378 394H404" stroke="#FF4B3A" stroke-width="10" stroke-linecap="round"/>
+</svg>
