@@ -77,6 +77,10 @@ Lid logo:
 
 ## Demo Video
 
+<video src="prints/video.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
+
 - [Watch the app demo video](prints/video.mp4)
 
 ## How It Works
