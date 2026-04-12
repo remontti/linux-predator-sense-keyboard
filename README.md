@@ -244,3 +244,6 @@ It does **not** currently try to cover:
 - system monitoring
 - battery charging limits
 - a full PredatorSense clone
+
+## Extra: system-predator.py
+<img src="prints/system-predator.py.png" alt="Linux Predator Sense Sensors" width="48%">
