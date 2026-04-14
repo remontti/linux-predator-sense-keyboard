@@ -247,3 +247,7 @@ It does **not** currently try to cover:
 
 ## Extra: system-predator.py
 <img src="prints/system-predator.py.png" alt="Linux Predator Sense Sensors" width="48%">
+
+## License
+
+MIT
